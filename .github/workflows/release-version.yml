@@ -36,7 +36,7 @@ jobs:
       # conventional-ch increments the patch version even when
       # it skipped commiting due to empty changelog. In such a case,
       # we have to retrieve the old (unchanged) version using our own means.
-      # https://github.com/conventional-changelog/standard-version/issues/730
+      # https:/hub.com/conventional-changelog/standard-version/issues/730
 
       - name: Read old version file
         id: read-old-version
